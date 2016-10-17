@@ -1,4 +1,4 @@
-package com.dpoddubko.p0341_simplesqlite;
+package com.dpoddubko.sqlite_search;
 
 public class Arrs {
     private static String[] firstNames = {"ADDISON", "ADRIAN", "ALEX", "ALEXIS", "ANDY", "ANGEL", "ARIEL",
@@ -128,13 +128,6 @@ public class Arrs {
             "COOLEY", "CARNEY", "COWAN", "FORBES", "FERRELL", "DAVIES", "BARAJAS", "SHEA", "OSBORN",
             "BRIGHT", "CUEVAS", "BOLTON", "MURILLO", "LUTZ", "DUARTE", "KIDD", "KEY", "COOKE"};
 
-    private static String[] states = {"Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
-            "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Illinois", "Indiana", "Kansas",
-            "Maine", "Michigan", "Minnesota", "Missouri", "Montana", "Nebraska", "Nevada", "Ohio",
-            "Oklahoma", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington"};
-
-    private static String[] positions = {"analyst", "HR", "programmer", "designer", "manager", "TL", "QA"};
-
     public static String[] getFirstNames() {
         return firstNames;
     }
@@ -143,11 +136,4 @@ public class Arrs {
         return lastNames;
     }
 
-    public static String[] getStates() {
-        return states;
-    }
-
-    public static String[] getPositions() {
-        return positions;
-    }
 }
